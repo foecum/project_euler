@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1445517486 source:/home/foecum/development/github/Uchujin/project_euler/Problem 15/main.cpp
+	<iostream>
+	<cstdint>
+	<sstream>
+

@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1445428936 source:/home/foecum/development/github/project_euler/Problem 13/main.cpp
+	<iostream>
+
+1445501816 source:/home/foecum/development/github/Uchujin/project_euler/Problem 13/main.cpp
+	<iostream>
+	<sstream>
+	<cstring>
+

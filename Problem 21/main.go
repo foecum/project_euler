@@ -12,19 +12,13 @@ Evaluate the sum of all the amicable numbers under 10000.
 */
 
 func main() {
-	divisors := make(map[int]int)
-	for i := 1; i < 10000; i++ {
-		divisors[i] = d(i)
-	}
 	var ammicableSum int
-	for k, v := range divisors {
 
-		i, ok := divisors[v]
-		if ok && i == k && k != v {
-			ammicableSum += k
-			ammicableSum += v
-			println(k, ": ", v)
-			delete(divisors, k)
+	for i := 1; i < 10000; i++ {
+		div := d(i)
+		if d(div) == i && div != i {
+			fmt.Println(div, ":", i)
+			ammicableSum += i
 		}
 	}
 
